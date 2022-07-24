@@ -1,0 +1,32 @@
+internal css & js - folder ->css or js 
+    example - music/style.css  call in signup and signin page 
+    <link rel="stylesheet" href="music/style.css">
+
+External css & js - cdn links
+    external server store files use  through urls
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+inline css and js
+    use styles and script for styling or scripting on tag 
+
+Bootstrap class -
+1. responsive (according to display size min to max automatically) - fluid
+2. image,margin,padding - width , height, left, right
+    example - margin: 10px 10px 10px 10px 
+3. margin vs padding -
+    margin - div to external area border.
+    padding - div to internal area border
+4. Axis - 
+    X - Left to right        margin left & right (mx)
+    Y - Top to bottom        margin Top and  Bottom (my)
+    size - 1 to 5
+    margin left (ml-size) - padding left (pl-size), margin right (mr-size) - padding right (pr-size)
+
+5. table -
+    1. thead - table header 
+    2. tr - table row
+    3. td - table data
+
+thead - 1 to thead header
+tr  - 1 table multipale table row
+td  - multiple table data in 1 table row(tr)
